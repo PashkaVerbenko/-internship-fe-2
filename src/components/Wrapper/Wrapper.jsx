@@ -2,7 +2,7 @@ import React, { useEffect, useMemo } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { message, Spin } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
-import AuthPage from '../../pages/AuthPage';
+import AuthPage from '../../pages/AuthPage/AuthPage';
 import { getAccountsState } from '../../store/selectors/usersSelectors';
 import { getNotificationData } from '../../store/selectors/notificationsSelectors';
 import { getAccounts, logIn } from '../../store/actions/usersActions';
